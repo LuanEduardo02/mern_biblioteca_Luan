@@ -6,7 +6,7 @@ import {
   getBooks,
   updateBook,
 } from "../controllers/book.controller.js";
-import { validateBook, validatePartialBook } from "../models/middlewares/book.validate.js";
+import { validateBook, validatePartialBook } from "../middlewares/book.validate.js";
 
 const router = Router();
 
